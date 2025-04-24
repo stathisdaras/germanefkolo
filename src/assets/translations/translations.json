@@ -1,0 +1,231 @@
+{
+  "hero.title": {
+    "en": "Germanefkolo",
+    "de": "Germanefkolo",
+    "el": "Germanefkolo"
+  },
+  "hero.subtitle.prefix": {
+    "en": "Time to",
+    "de": "Zeit für",
+    "el": "Ώρα"
+  },
+  "hero.subtitle.option1": {
+    "en": "learn German!",
+    "de": "Deutsch lernen!",
+    "el": "να μάθετε γερμανικά!"
+  },
+  "hero.subtitle.option2": {
+    "en": "be creative!",
+    "de": "kreativ sein!",
+    "el": "για δημιουργικότητα!"
+  },
+  "hero.subtitle.option3": {
+    "en": "work together!",
+    "de": "Zusammenarbeiten!",
+    "el": "να συνεργαστούμε!"
+  },
+  "hero.button": {
+    "en": "Get Started",
+    "de": "Jetzt anmelden",
+    "el": "Ξεκινήστε"
+  },
+  "about.title": {
+    "en": "About Me",
+    "de": "Über mich",
+    "el": "Σχετικά με εμένα"
+  },
+  "about.description": {
+    "en": "As an experienced German teacher, I offer tailored lessons for all levels. My goal is to teach you not only the language but also introduce you to German culture and way of life.",
+    "de": "Als erfahrene Deutschlehrerin biete ich maßgeschneiderten Unterricht für alle Niveaus. Mein Ziel ist es, Ihnen nicht nur die Sprache beizubringen, sondern auch die deutsche Kultur und Lebensweise näherzubringen.",
+    "el": "Ως έμπειρη δασκάλα γερμανικών, προσφέρω εξατομικευμένα μαθήματα για όλα τα επίπεδα. Στόχος μου είναι να σας διδάξω όχι μόνο τη γλώσσα, αλλά και να σας εισάγω στη γερμανική κουλτούρα και τρόπο ζωής."
+  },
+  "about.button": {
+    "en": "Learn More",
+    "de": "Mehr erfahren",
+    "el": "Μάθετε περισσότερα"
+  },
+  "services.title": {
+    "en": "My Services",
+    "de": "Meine Angebote",
+    "el": "Οι Υπηρεσίες μου"
+  },
+  "services.individual": {
+    "en": "Individual Lessons",
+    "de": "Einzelunterricht",
+    "el": "Ατομικά Μαθήματα"
+  },
+  "services.individual.desc": {
+    "en": "Personalized lessons tailored to your individual needs.",
+    "de": "Persönlicher Unterricht, der auf Ihre individuellen Bedürfnisse zugeschnitten ist.",
+    "el": "Εξατομικευμένα μαθήματα προσαρμοσμένα στις ατομικές σας ανάγκες."
+  },
+  "services.group": {
+    "en": "Group Courses",
+    "de": "Gruppenkurse",
+    "el": "Ομαδικά Μαθήματα"
+  },
+  "services.group.desc": {
+    "en": "Interactive group courses for a dynamic learning experience.",
+    "de": "Interaktive Gruppenkurse für ein dynamisches Lernerlebnis.",
+    "el": "Διαδραστικά ομαδικά μαθήματα για μια δυναμική εμπειρία μάθησης."
+  },
+  "services.exam": {
+    "en": "Exam Preparation",
+    "de": "Prüfungsvorbereitung",
+    "el": "Προετοιμασία Εξετάσεων"
+  },
+  "services.exam.desc": {
+    "en": "Targeted preparation for Goethe certificates and other language exams.",
+    "de": "Gezielte Vorbereitung auf Goethe-Zertifikate und andere Sprachprüfungen.",
+    "el": "Στοχευμένη προετοιμασία για πιστοποιητικά Goethe και άλλες γλωσσικές εξετάσεις."
+  },
+  "testimonials.title": {
+    "en": "What My Students Say",
+    "de": "Was meine Schüler sagen",
+    "el": "Τι λένε οι μαθητές μου"
+  },
+  "contact.title": {
+    "en": "Contact",
+    "de": "Kontakt",
+    "el": "Επικοινωνία"
+  },
+  "contact.quick_response": {
+    "en": "I promise to respond to your email within 24 hours. Looking forward to hearing from you!",
+    "de": "Ich verspreche, Ihre E-Mail innerhalb von 24 Stunden zu beantworten. Ich freue mich auf Ihre Nachricht!",
+    "el": "Υπόσχομαι να απαντήσω στο email σας εντός 24 ωρών. Ανυπομονώ να ακούσω από εσάς!"
+  },
+  "contact.email_button": {
+    "en": "Send Email",
+    "de": "E-Mail senden",
+    "el": "Αποστολή Email"
+  },
+  "contact.email": {
+    "en": "panagiotisdrs@gmail.com",
+    "de": "panagiotisdrs@gmail.com",
+    "el": "panagiotisdrs@gmail.com"
+  },
+  "footer.about": {
+    "en": "About Me",
+    "de": "Über mich",
+    "el": "Σχετικά με εμένα"
+  },
+  "footer.about.desc": {
+    "en": "Professional German language instruction for all levels.",
+    "de": "Professioneller Deutschunterricht für alle Niveaus.",
+    "el": "Επαγγελματική διδασκαλία γερμανικών για όλα τα επίπεδα."
+  },
+  "footer.quicklinks": {
+    "en": "Quick Links",
+    "de": "Schnellzugriff",
+    "el": "Γρήγοροι Σύνδεσμοι"
+  },
+  "footer.home": {
+    "en": "Home",
+    "de": "Startseite",
+    "el": "Αρχική"
+  },
+  "footer.services": {
+    "en": "Services",
+    "de": "Angebote",
+    "el": "Υπηρεσίες"
+  },
+  "footer.contact": {
+    "en": "Contact",
+    "de": "Kontakt",
+    "el": "Επικοινωνία"
+  },
+  "footer.copyright": {
+    "en": "© 2024 German Language Instruction. All rights reserved.",
+    "de": "© 2024 Deutschunterricht. Alle Rechte vorbehalten.",
+    "el": "© 2024 Διδασκαλία Γερμανικών. Όλα τα δικαιώματα διατηρούνται."
+  },
+  "testimonials": {
+    "en": {
+      "title": "What Our Students Say",
+      "list": [
+        {
+          "name": "Sarah Johnson",
+          "comment": "The lessons were incredibly effective and helped me make rapid progress. The teacher is very patient and professional."
+        },
+        {
+          "name": "Michael Chen",
+          "comment": "The B2 exam preparation was excellent. I passed the exam with outstanding results."
+        },
+        {
+          "name": "Emma Wilson",
+          "comment": "I've improved my German significantly in just a few months. The teaching methods are very engaging."
+        },
+        {
+          "name": "David Müller",
+          "comment": "The online classes are very well structured and the teacher is always well prepared."
+        },
+        {
+          "name": "Sophie Laurent",
+          "comment": "I love the cultural insights we get during the lessons. It makes learning German much more interesting."
+        },
+        {
+          "name": "James O'Connor",
+          "comment": "The personalized approach to teaching really helped me overcome my speaking anxiety."
+        }
+      ]
+    },
+    "de": {
+      "title": "Was unsere Studenten sagen",
+      "list": [
+        {
+          "name": "Sarah Johnson",
+          "comment": "Der Unterricht war sehr effektiv und hat mir geholfen, schnell Fortschritte zu machen. Die Lehrerin ist sehr geduldig und professionell."
+        },
+        {
+          "name": "Michael Chen",
+          "comment": "Die Vorbereitung auf die B2-Prüfung war ausgezeichnet. Ich habe die Prüfung mit sehr gutem Ergebnis bestanden."
+        },
+        {
+          "name": "Emma Wilson",
+          "comment": "Ich habe mein Deutsch in nur wenigen Monaten deutlich verbessert. Die Lehrmethoden sind sehr ansprechend."
+        },
+        {
+          "name": "David Müller",
+          "comment": "Die Online-Kurse sind sehr gut strukturiert und die Lehrerin ist immer gut vorbereitet."
+        },
+        {
+          "name": "Sophie Laurent",
+          "comment": "Ich liebe die kulturellen Einblicke, die während des Unterrichts bekommen. Das macht das Deutschlernen viel interessanter."
+        },
+        {
+          "name": "James O'Connor",
+          "comment": "Der personalisierte Unterrichtsansatz hat mir wirklich geholfen, meine Sprechangst zu überwinden."
+        }
+      ]
+    },
+    "el": {
+      "title": "Τι λένε οι μαθητές μας",
+      "list": [
+        {
+          "name": "Sarah Johnson",
+          "comment": "Τα μαθήματα ήταν εξαιρετικά αποτελεσματικά και με βοήθησαν να κάνω γρήγορη πρόοδο. Η δασκάλα είναι πολύ υπομονετική και επαγγελματίας."
+        },
+        {
+          "name": "Michael Chen",
+          "comment": "Η προετοιμασία για τις εξετάσεις B2 ήταν εξαιρετική. Πέρασα τις εξετάσεις με εξαιρετικά αποτελέσματα."
+        },
+        {
+          "name": "Emma Wilson",
+          "comment": "Έχω βελτιώσει σημαντικά τα γερμανικά μου σε λίγους μόνο μήνες. Οι μέθοδοι διδασκαλίας είναι πολύ ελκυστικές."
+        },
+        {
+          "name": "David Müller",
+          "comment": "Τα διαδικτυακά μαθήματα είναι πολύ καλά δομημένα και η δασκάλα είναι πάντα καλά προετοιμασμένη."
+        },
+        {
+          "name": "Sophie Laurent",
+          "comment": "Λατρεύω τις πολιτιστικές γνώσεις που παίρνουμε κατά τη διάρκεια των μαθημάτων. Κάνει την εκμάθηση των γερμανικών πολύ πιο ενδιαφέρουσα."
+        },
+        {
+          "name": "James O'Connor",
+          "comment": "Η εξατομικευμένη προσέγγιση στη διδασκαλία με βοήθησε πραγματικά να ξεπεράσω το άγχος μου στο να μιλάω."
+        }
+      ]
+    }
+  }
+} 
