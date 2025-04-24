@@ -1,59 +1,110 @@
-# Germanefkolo
+# German Language Learning Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+A modern, responsive website for German language learning services, built with Angular and Tailwind CSS.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- 🌐 Multi-language support (German, English, Greek)
+- 📱 Fully responsive design
+- 🎨 Modern UI with smooth animations
+- 💬 Testimonials carousel
+- 🎯 Interactive navigation
+- 🌙 Dark mode support
 
+## Tech Stack
+
+- Angular 19
+- Tailwind CSS
+- PrimeNG Components
+- TypeScript
+- LESS for styling
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or later)
+- npm (v7 or later)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/stathisdaras/germanefkolo.git
+cd germanefkolo
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Open your browser and navigate to `http://localhost:4200`
 
-## Code scaffolding
+## Project Structure
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── language-switcher/
+│   │   └── side-navigation/
+│   ├── services/
+│   │   └── translation.service.ts
+│   ├── app.component.ts
+│   └── app.component.html
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── translations/
+└── styles/
+    └── styles.less
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Features in Detail
 
-```bash
-ng generate --help
-```
+### Multi-language Support
+- Seamless language switching between German, English, and Greek
+- Persistent language preference using localStorage
+- Translation service for dynamic content
 
-## Building
+### Responsive Design
+- Mobile-first approach
+- Responsive navigation
+- Adaptive layouts for all screen sizes
 
-To build the project run:
+### Interactive Elements
+- Animated hero section
+- Smooth scrolling
+- Interactive service cards
+- Testimonials carousel
 
-```bash
-ng build
-```
+## Contributing
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Running unit tests
+## License
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```bash
-ng test
-```
+## Acknowledgments
 
-## Running end-to-end tests
+- [Angular](https://angular.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PrimeNG](https://www.primefaces.org/primeng/)
+- [Font Awesome](https://fontawesome.com/)
 
-For end-to-end (e2e) testing, run:
+## Contact
 
-```bash
-ng e2e
-```
+Efstathios Daras - [stathisdaras.github.io](https://stathisdaras.github.io/)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Project Link: [https://github.com/stathisdaras/germanefkolo](https://github.com/stathisdaras/germanefkolo)
