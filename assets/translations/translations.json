@@ -100,9 +100,9 @@
     "el": "Επικοινωνία"
   },
   "contact.quick_response": {
-    "en": "I promise to respond to your email within 24 hours. Looking forward to hearing from you!",
-    "de": "Ich verspreche, Ihre E-Mail innerhalb von 24 Stunden zu beantworten. Ich freue mich auf Ihre Nachricht!",
-    "el": "Υπόσχομαι να απαντήσω στο email σας εντός 24 ωρών. Ανυπομονώ να ακούσω από εσάς!"
+    "en": "I promise to respond to your message within 48 hours. Looking forward to hearing from you!",
+    "de": "Ich verspreche, Ihre Nachricht innerhalb von 48 Stunden zu beantworten. Ich freue mich auf Ihre Nachricht!",
+    "el": "Υπόσχομαι να απαντήσω στο μήνυμα σας εντός 48 ωρών. Ανυπομονώ να ακούσω από εσάς!"
   },
   "contact.email_button": {
     "en": "Send Email",
