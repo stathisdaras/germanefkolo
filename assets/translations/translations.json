@@ -35,14 +35,24 @@
     "el": "Σχετικά με εμένα"
   },
   "about.description": {
-    "en": "I have been teaching German for 15 years, specializing in preparing students for all language proficiency exams (Goethe, ÖSD). My expertise lies in training adults for relocation to German-speaking countries and improving the daily communication of those already living there. I apply modern teaching methods, provide free educational materials, and adapt my teaching model to each student's pace, with special attention to their psychological and emotional needs.",
-    "de": "Ich unterrichte seit 15 Jahren Deutsch und spezialisiere mich auf die Vorbereitung von Schülern für alle Sprachprüfungen (Goethe, ÖSD). Mein Schwerpunkt liegt in der Ausbildung von Erwachsenen für die Umsiedlung in deutschsprachige Länder und der Verbesserung der täglichen Kommunikation derer, die bereits dort leben. Ich wende moderne Lehrmethoden an, stelle kostenlose Lehrmaterialien zur Verfügung und passe mein Unterrichtsmodell dem Tempo jedes Schülers an, wobei ich besonderes Augenmerk auf ihre psychologischen und emotionalen Bedürfnisse lege.",
-    "el": "Παραδίδω ιδιαίτερα μαθήματα γερμανικών εδώ και 15 έτη, αναλαμβάνοντας την προετοιμασία μαθητών για εξετάσεις όλων των φορέων γλωσσομάθειας (Goethe, Ösd). Εξειδίκευση μου η εκπαίδευση ενηλίκων με σκοπό την εγκατάστασή τους σε γερμανόφωνες χώρες καθώς και η ποιοτική επικοινωνία στην καθημερινότητα εκείνων που ήδη διαμένουν σε γερμανόφωνες χώρες. Εφαρμόζω σύγχρονες μεθόδους διδασκαλίας, παρέχω δωρεάν εκπαιδευτικό υλικό και προσαρμόζω τα διδακτικό μου μοντέλο στους ρυθμούς του κάθε μαθητή, στου οποίου τις ψυχοσυναισθηματικές ανάγκες δίνω ιδιαίτερη έμφαση."
+    "en": "My name is Panagiotis Daras and I have been teaching German for 15 years, specializing in preparing students for all language proficiency exams (Goethe, ÖSD). My expertise lies in training adults for relocation to German-speaking countries and improving the daily communication of those already living there. I apply modern teaching methods, provide free educational materials, and adapt my teaching model to each student's pace, with special attention to their psychological and emotional needs.",
+    "de": "Mein Name ist Panagiotis Daras und ich unterrichte seit 15 Jahren Deutsch und spezialisiere mich auf die Vorbereitung von Schülern für alle Sprachprüfungen (Goethe, ÖSD). Mein Schwerpunkt liegt in der Ausbildung von Erwachsenen für die Umsiedlung in deutschsprachige Länder und der Verbesserung der täglichen Kommunikation derer, die bereits dort leben. Ich wende moderne Lehrmethoden an, stelle kostenlose Lehrmaterialien zur Verfügung und passe mein Unterrichtsmodell dem Tempo jedes Schülers an, wobei ich besonderes Augenmerk auf ihre psychologischen und emotionalen Bedürfnisse lege.",
+    "el": "Το όνομά μου είναι Παναγιώτης Δάρας και παραδίδω ιδιαίτερα μαθήματα γερμανικών εδώ και 15 έτη, αναλαμβάνοντας την προετοιμασία μαθητών για εξετάσεις όλων των φορέων γλωσσομάθειας (Goethe, Ösd). Εξειδίκευση μου η εκπαίδευση ενηλίκων με σκοπό την εγκατάστασή τους σε γερμανόφωνες χώρες καθώς και η ποιοτική επικοινωνία στην καθημερινότητα εκείνων που ήδη διαμένουν σε γερμανόφωνες χώρες. Εφαρμόζω σύγχρονες μεθόδους διδασκαλίας, παρέχω δωρεάν εκπαιδευτικό υλικό και προσαρμόζω τα διδακτικό μου μοντέλο στους ρυθμούς του κάθε μαθητή, στου οποίου τις ψυχοσυναισθηματικές ανάγκες δίνω ιδιαίτερη έμφαση."
   },
   "about.button": {
-    "en": "Learn More",
-    "de": "Mehr erfahren",
-    "el": "Μάθετε περισσότερα"
+    "en": "Show More",
+    "de": "Mehr anzeigen",
+    "el": "Εμφάνιση περισσότερων"
+  },
+  "about.showMore": {
+    "en": "Show More",
+    "de": "Mehr anzeigen",
+    "el": "Εμφάνιση περισσότερων"
+  },
+  "about.showLess": {
+    "en": "Show Less",
+    "de": "Weniger anzeigen",
+    "el": "Εμφάνιση λιγότερων"
   },
   "services.title": {
     "en": "My Services",
@@ -75,9 +85,9 @@
     "el": "Προετοιμασία Εξετάσεων"
   },
   "services.exam.desc": {
-    "en": "Targeted preparation for Goethe certificates and other language exams.",
-    "de": "Gezielte Vorbereitung auf Goethe-Zertifikate und andere Sprachprüfungen.",
-    "el": "Στοχευμένη προετοιμασία για πιστοποιητικά Goethe και άλλες γλωσσικές εξετάσεις."
+    "en": "Targeted preparation for Goethe / ÖSD / TestDaF / Telc certificates and other language exams.",
+    "de": "Gezielte Vorbereitung auf Goethe / ÖSD / TestDaF / Telc -Zertifikate und andere Sprachprüfungen.",
+    "el": "Στοχευμένη προετοιμασία για πιστοποιητικά Goethe / ÖSD / TestDaF / Telc και άλλες γλωσσικές εξετάσεις."
   },
   "testimonials.title": {
     "en": "What My Students Say",
@@ -141,60 +151,60 @@
   },
   "testimonials": {
     "en": {
-      "title": "What Our Students Say",
+      "title": "What My Students Say",
       "list": [
         {
-          "name": "Sarah Johnson",
-          "comment": "The lessons were incredibly effective and helped me make rapid progress. The teacher is very patient and professional."
+          "name": "Aggeliki-Maria Antonopoulou",
+          "comment": "The best German teacher! For anyone interested in learning German properly in a short time and with the best guidance, turn only to him. I started with him at B2 level and in 12 months I took Goethe C1 exams! The lessons were very pleasant and adapted to my needs and schedule. Excellent organization, very well organized and experienced teacher and above all a good person!! Always willing to listen to you and work with you because he wants to see you succeed. I thank him very much for being by my side in this struggle of mine and I am grateful that I had the chance to meet him."
         },
         {
-          "name": "Michael Chen",
-          "comment": "The B2 exam preparation was excellent. I passed the exam with outstanding results."
+          "name": "Eleftheria Stoupaki",
+          "comment": "Panos is a very good person with knowledge of the German language, love for the subject and the ability to transmit knowledge. His lessons are enjoyable and at the same time prepare you very well for the goal you have set."
         },
         {
-          "name": "Emma Wilson",
-          "comment": "I've improved my German significantly in just a few months. The teaching methods are very engaging."
+          "name": "Ioanna Potiriadi",
+          "comment": "Panos is an excellent German teacher who manages to combine excellent knowledge of the language with a teaching approach that excites and inspires his students. His method is extremely well organized, with emphasis on practical exercise and interaction, making the lessons much more effective and interesting. He is patient and has the talent to adapt his teaching to the needs and level of each student, helping them overcome difficulties and gain confidence in the language. Panos also has personal teaching material and uses modern means, both for teaching theory and for strengthening skills in oral and written expression. Most importantly, he creates a friendly and supportive environment where students feel comfortable expressing themselves and learning without stress. His ability to transmit knowledge in a pleasant and understandable way makes him ideal for anyone who wants to learn German with consistency and efficiency. Overall, he is an excellent teacher who combines expertise with his personal commitment to his students' success."
         },
         {
-          "name": "David Müller",
-          "comment": "The online classes are very well structured and the teacher is always well prepared."
+          "name": "Dionysia Ho",
+          "comment": "A true connoisseur of the German language and culture! Methodical, explanatory and with great patience! Passt sich den Bedürfnissen und Anforderungen jedes Schülers an!"
         },
         {
-          "name": "Sophie Laurent",
-          "comment": "I love the cultural insights we get during the lessons. It makes learning German much more interesting."
+          "name": "Mellissa N",
+          "comment": "Panos helped me understand the basic concepts of German grammar, which at first seemed complicated to me. His explanations were clear and methodical, making the learning process more accessible and effective."
         },
         {
-          "name": "James O'Connor",
-          "comment": "The personalized approach to teaching really helped me overcome my speaking anxiety."
+          "name": "Stathis D",
+          "comment": "Panos helped me reach B2 level in German and secure a residence permit in Switzerland. The lessons were clear and well organized, and the preparation was exactly what I needed for the exams. Thank you for the support."
         }
       ]
     },
     "de": {
-      "title": "Was unsere Studenten sagen",
+      "title": "Was meine Schüler sagen",
       "list": [
         {
-          "name": "Sarah Johnson",
-          "comment": "Der Unterricht war sehr effektiv und hat mir geholfen, schnell Fortschritte zu machen. Die Lehrerin ist sehr geduldig und professionell."
+          "name": "Aggeliki-Maria Antonopoulou",
+          "comment": "Der beste Deutschlehrer! Für alle, die in kurzer Zeit und mit der besten Anleitung richtig Deutsch lernen möchten, wenden Sie sich nur an ihn. Ich habe bei ihm auf B2-Niveau angefangen und in 12 Monaten die Goethe C1-Prüfungen abgelegt! Der Unterricht war sehr angenehm und an meine Bedürfnisse und meinen Zeitplan angepasst. Ausgezeichnete Organisation, sehr gut organisierter und erfahrener Lehrer und vor allem ein guter Mensch!! Immer bereit, Ihnen zuzuhören und mit Ihnen zu arbeiten, weil er Sie erfolgreich sehen möchte. Ich danke ihm sehr, dass er in diesem Kampf an meiner Seite war, und ich bin dankbar, dass ich die Chance hatte, ihn kennenzulernen."
         },
         {
-          "name": "Michael Chen",
-          "comment": "Die Vorbereitung auf die B2-Prüfung war ausgezeichnet. Ich habe die Prüfung mit sehr gutem Ergebnis bestanden."
+          "name": "Eleftheria Stoupaki",
+          "comment": "Panos ist ein sehr guter Mensch mit Kenntnissen der deutschen Sprache, Liebe zum Fach und der Fähigkeit, Wissen zu vermitteln. Sein Unterricht ist angenehm und bereitet Sie gleichzeitig sehr gut auf das gesetzte Ziel vor."
         },
         {
-          "name": "Emma Wilson",
-          "comment": "Ich habe mein Deutsch in nur wenigen Monaten deutlich verbessert. Die Lehrmethoden sind sehr ansprechend."
+          "name": "Ioanna Potiriadi",
+          "comment": "Panos ist ein ausgezeichneter Deutschlehrer, dem es gelingt, ausgezeichnete Sprachkenntnisse mit einem Unterrichtsansatz zu verbinden, der seine Schüler begeistert und inspiriert. Seine Methode ist äußerst gut organisiert, mit Schwerpunkt auf praktischen Übungen und Interaktion, was den Unterricht viel effektiver und interessanter macht. Er ist geduldig und hat das Talent, seinen Unterricht an die Bedürfnisse und das Niveau jedes Schülers anzupassen, ihnen zu helfen, Schwierigkeiten zu überwinden und Vertrauen in die Sprache zu gewinnen. Panos verfügt auch über persönliches Unterrichtsmaterial und nutzt moderne Mittel, sowohl für den Theorieunterricht als auch für die Stärkung der Fähigkeiten im mündlichen und schriftlichen Ausdruck. Am wichtigsten ist, dass er eine freundliche und unterstützende Umgebung schafft, in der sich die Schüler wohlfühlen, sich auszudrücken und ohne Stress zu lernen. Seine Fähigkeit, Wissen auf angenehme und verständliche Weise zu vermitteln, macht ihn ideal für jeden, der Deutsch mit Konsequenz und Effizienz lernen möchte. Insgesamt ist er ein ausgezeichneter Lehrer, der Fachwissen mit seinem persönlichen Engagement für den Erfolg seiner Schüler verbindet."
         },
         {
-          "name": "David Müller",
-          "comment": "Die Online-Kurse sind sehr gut strukturiert und die Lehrerin ist immer gut vorbereitet."
+          "name": "Dionysia Ho",
+          "comment": "Ein wahrer Kenner der deutschen Sprache und Kultur! Methodisch, erklärend und mit großer Geduld! Passt sich den Bedürfnissen und Anforderungen jedes Schülers an!"
         },
         {
-          "name": "Sophie Laurent",
-          "comment": "Ich liebe die kulturellen Einblicke, die während des Unterrichts bekommen. Das macht das Deutschlernen viel interessanter."
+          "name": "Mellissa N",
+          "comment": "Panos half mir, die grundlegenden Konzepte der deutschen Grammatik zu verstehen, die mir anfangs kompliziert erschienen. Seine Erklärungen waren klar und methodisch, κάτι που έκανε τη διαδικασία εκμάθησης πιο προσιτή και αποτελεσματική."
         },
         {
-          "name": "James O'Connor",
-          "comment": "Der personalisierte Unterrichtsansatz hat mir wirklich geholfen, meine Sprechangst zu überwinden."
+          "name": "Stathis D",
+          "comment": "Panos half mir, das B2-Niveau in Deutsch zu erreichen und eine Aufenthaltserlaubnis in der Schweiz zu erhalten. Der Unterricht war klar und gut organisiert, und die Vorbereitung war genau das, was ich für die Prüfungen brauchte. Vielen Dank für die Unterstützung."
         }
       ]
     },
@@ -202,28 +212,28 @@
       "title": "Τι λένε οι μαθητές μας",
       "list": [
         {
-          "name": "Sarah Johnson",
-          "comment": "Τα μαθήματα ήταν εξαιρετικά αποτελεσματικά και με βοήθησαν να κάνω γρήγορη πρόοδο. Η δασκάλα είναι πολύ υπομονετική και επαγγελματίας."
+          "name": "Αγγελική-Μαρία Αντωνοπούλου",
+          "comment": "Ο καλύτερος δάσκαλος γερμανικών! Για όποιον ενδιαφέρεται να μάθει σωστά γερμανικά σε σύντομα χρονικό διάστημα και με την καλύτερη καθοδήγηση απευθυνθείτε μόνο σε αυτόν. Ξεκίνησα μαζί του γερμανικά με επίπεδο Β2 και σε 12 μήνες έδωσα εξετάσεις Goethe c1! Το μάθημα πολύ ευχάριστο και προσαρμοσμένο στις ανάγκες και το πρόγραμμα μου. Εξαιρετική οργάνωση, πολύ καλά οργανωμένος και έμπειρος καθηγητής και πάνω απ'ολα καλός άνθρωπος.!! Πάντα πρόθυμος να σε ακούσει και να δουλέψει μαζί σου γιατί θέλει να σε δει να πετυχαίνεις. Τον ευχαριστώ πολύ που ήταν δίπλα μου σε αυτό τον αγώνα μου και είμαι ευγνώμων που είχα την τύχη να τον γνωρίσω."
         },
         {
-          "name": "Michael Chen",
-          "comment": "Η προετοιμασία για τις εξετάσεις B2 ήταν εξαιρετική. Πέρασα τις εξετάσεις με εξαιρετικά αποτελέσματα."
+          "name": "Ελευθερία Στουπάκη",
+          "comment": "Ο Πάνος είναι ένας πολυ΄ καλός άνθρωπος με γνώση της γερμανικής γλώσσας, αγάπη για το αντικείμενο και μεταδοτικότητα. Το μάθημά του γίνεται ευχάριστα και ταυτόχρονα σε προετοιμάζει πολύ καλά για τον στόχο που έχεις θέσει."
         },
         {
-          "name": "Emma Wilson",
-          "comment": "Έχω βελτιώσει σημαντικά τα γερμανικά μου σε λίγους μόνο μήνες. Οι μέθοδοι διδασκαλίας είναι πολύ ελκυστικές."
+          "name": "Ιωάννα Ποτηριάδη",
+          "comment": "Ο Πάνος είναι ένας εξαιρετικός καθηγητής Γερμανικών, ο οποίος καταφέρνει να συνδυάσει την άριστη γνώση της γλώσσας με μία διδακτική προσέγγιση που ενθουσιάζει και εμπνέει τους μαθητές του. Η μέθοδός του είναι εξαιρετικά οργανωμένη, με έμφαση στην πρακτική εξάσκηση και την αλληλεπίδραση, κάτι που κάνει τα μαθήματα πολύ πιο αποδοτικά και ενδιαφέροντα. Είναι υπομονετικός και διαθέτει το ταλέντο να προσαρμόζει τη διδασκαλία του στις ανάγκες και το επίπεδο κάθε μαθητή, βοηθώντας τους να ξεπεράσουν τις δυσκολίες και να αποκτήσουν αυτοπεποίθηση στη γλώσσα. Ο Πάνος διαθέτει επιπλέον προσωπικο διδακτικό υλικό και χρησιμοποιεί σύγχρονα μέσα, τόσο για τη διδασκαλία της θεωρίας όσο και για την ενίσχυση των δεξιοτήτων στην προφορική και γραπτή έκφραση. Το σημαντικότερο όμως είναι ότι δημιουργεί ένα φιλικό και υποστηρικτικό περιβάλλον, στο οποίο οι μαθητές αισθάνονται άνετα να εκφραστούν και να μάθουν χωρίς άγχη. Η ικανότητά του να μεταδώσει τη γνώση με τρόπο ευχάριστο και κατανοητό τον καθιστά ιδανικό για όποιον θέλει να μάθει Γερμανικά με συνέπεια και αποδοτικότητα. Συνολικά, είναι ένας εξαιρετικός καθηγητής που συνδυάζει την τεχνογνωσία με την προσωπική του δέσμευση για την επιτυχία των μαθητών του."
         },
         {
-          "name": "David Müller",
-          "comment": "Τα διαδικτυακά μαθήματα είναι πολύ καλά δομημένα και η δασκάλα είναι πάντα καλά προετοιμασμένη."
+          "name": "Διονυσία Χο",
+          "comment": "Πραγματικός γνωστής της γερμανικής γλώσσας και κουλτούρας! Μεθοδικός, επεξηγηματικός και με τεράστια υπομονή! Προσαρμόζεται στις ανάγκες και τις απαιτήσεις του κάθε μαθητή !"
         },
         {
-          "name": "Sophie Laurent",
-          "comment": "Λατρεύω τις πολιτιστικές γνώσεις που παίρνουμε κατά τη διάρκεια των μαθημάτων. Κάνει την εκμάθηση των γερμανικών πολύ πιο ενδιαφέρουσα."
+          "name": "Mellissa N",
+          "comment": "Ο Πάνος με βοήθησε να κατανοήσω τις βασικές έννοιες της γερμανικής γραμματικής, οι οποίες στην αρχή μου φαίνονταν περίπλοκες. Οι εξηγήσεις του ήταν σαφείς και μεθοδικές, κάτι που έκανε τη διαδικασία εκμάθησης πιο προσιτή και αποτελεσματική."
         },
         {
-          "name": "James O'Connor",
-          "comment": "Η εξατομικευμένη προσέγγιση στη διδασκαλία με βοήθησε πραγματικά να ξεπεράσω το άγχος μου στο να μιλάω."
+          "name": "Stathis D",
+          "comment": "Ο Πάνος με βοήθησε να φτάσω στο επίπεδο Β2 στα Γερμανικά και να εξασφαλίσω άδεια παραμονής στην Ελβετία. Τα μαθήματα ήταν ξεκάθαρα και καλά οργανωμένα, και η προετοιμασία ήταν ακριβώς αυτό που χρειαζόμουν για τις εξετάσεις. Ευχαριστώ για την υποστήριξη."
         }
       ]
     }
