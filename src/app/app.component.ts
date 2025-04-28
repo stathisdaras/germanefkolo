@@ -30,13 +30,13 @@ export class AppComponent {
   responsiveOptions = [
     {
       breakpoint: '1024px',
-      numVisible: 3,
-      numScroll: 3
+      numVisible: 2,
+      numScroll: 1
     },
     {
       breakpoint: '768px',
-      numVisible: 2,
-      numScroll: 2
+      numVisible: 1,
+      numScroll: 1
     },
     {
       breakpoint: '560px',
@@ -44,6 +44,8 @@ export class AppComponent {
       numScroll: 1
     }
   ];
+
+  showMore = false;
 
   constructor(private translationService: TranslationService) {}
 
@@ -60,5 +62,9 @@ export class AppComponent {
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: 'smooth' });
     }
+  }
+
+  toggleShowMore() {
+    this.showMore = !this.showMore;
   }
 }

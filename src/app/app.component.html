@@ -43,11 +43,11 @@
     <div class="max-w-6xl mx-auto">
       <h2 class="text-4xl font-bold text-center mb-12">{{ translate('about.title') }}</h2>
       <div class="space-y-6 text-center">
-        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto" [class.line-clamp-3]="!showMore">
           {{ translate('about.description') }}
         </p>
-        <button class="bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors">
-          {{ translate('about.button') }}
+        <button (click)="toggleShowMore()" class="bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors">
+          {{ translate(showMore ? 'about.showLess' : 'about.showMore') }}
         </button>
       </div>
     </div>
@@ -100,17 +100,19 @@
       <h2 class="text-4xl font-bold text-center mb-12">{{ translate('testimonials.title') }}</h2>
       <p-carousel 
         [value]="getTestimonials()" 
-        [numVisible]="3" 
+        [numVisible]="2" 
         [numScroll]="1" 
         [responsiveOptions]="responsiveOptions"
         [circular]="true"
-        [autoplayInterval]="3000"
+        [autoplayInterval]="9000"
         class="custom-carousel">
         <ng-template let-testimonial pTemplate="item">
-          <div class="bg-white p-8 rounded-xl shadow-lg mx-2 h-full">
+          <div class="bg-white p-8 rounded-xl shadow-lg mx-2">
             <div class="mb-6">
               <h4 class="font-semibold text-lg mb-2">{{ testimonial.name }}</h4>
-              <p class="text-gray-600 italic">{{ testimonial.comment }}</p>
+              <p class="text-gray-600 italic whitespace-pre-line">
+                {{ testimonial.comment }}
+              </p>
             </div>
           </div>
         </ng-template>

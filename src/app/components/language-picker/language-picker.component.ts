@@ -17,7 +17,6 @@ interface Language {
   styleUrls: ['./language-picker.component.less']
 })
 export class LanguagePickerComponent implements OnInit {
-  isOpen = false;
   currentLang: string;
 
   languages: Language[] = [
@@ -28,9 +27,6 @@ export class LanguagePickerComponent implements OnInit {
 
   constructor(private translationService: TranslationService) {
     this.currentLang = 'de';
-  }
-
-  ngOnInit() {
     this.translationService.currentLang$
       .pipe(takeUntilDestroyed())
       .subscribe(lang => {
@@ -38,14 +34,13 @@ export class LanguagePickerComponent implements OnInit {
       });
   }
 
-  toggleDropdown() {
-    this.isOpen = !this.isOpen;
+  ngOnInit() {
+    // Initialization code if needed
   }
 
   selectLanguage(lang: string) {
     this.translationService.setLanguage(lang);
     this.currentLang = lang;
-    this.isOpen = false;
   }
 
   getCurrentLanguageName(): string {
