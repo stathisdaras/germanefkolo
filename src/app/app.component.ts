@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslationService } from './services/translation.service';
-import { LanguageSwitcherComponent } from './components/language-switcher/language-switcher.component';
 import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
+import { LanguagePickerComponent } from './components/language-picker/language-picker.component';
 import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
 
 interface Testimonial {
   name: string;
@@ -16,11 +17,12 @@ interface Testimonial {
   standalone: true,
   imports: [
     CommonModule,
-    LanguageSwitcherComponent,
     CarouselModule,
     ButtonModule,
+    LanguagePickerComponent,
     SideNavigationComponent
   ],
+  schemas: [NO_ERRORS_SCHEMA],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.less']
 })

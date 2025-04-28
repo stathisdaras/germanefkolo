@@ -5,24 +5,24 @@
     "el": "Germanefkolo"
   },
   "hero.subtitle.prefix": {
-    "en": "Time to",
-    "de": "Zeit für",
+    "en": "Time",
+    "de": "Zeit",
     "el": "Ώρα"
   },
   "hero.subtitle.option1": {
-    "en": "learn German!",
-    "de": "Deutsch lernen!",
-    "el": "να μάθετε γερμανικά!"
+    "en": "Time to learn German!",
+    "de": "Zeit zum Deutschlernen!",
+    "el": "Ώρα να μάθετε γερμανικά!"
   },
   "hero.subtitle.option2": {
-    "en": "be creative!",
-    "de": "kreativ sein!",
-    "el": "για δημιουργικότητα!"
+    "en": "Time to be creative!",
+    "de": "Zeit für Kreativität!",
+    "el": "Ώρα για δημιουργικότητα!"
   },
   "hero.subtitle.option3": {
-    "en": "work together!",
-    "de": "Zusammenarbeiten!",
-    "el": "να συνεργαστούμε!"
+    "en": "Time to work together!",
+    "de": "Zeit zur Zusammenarbeit!",
+    "el": "Ώρα για συνεργασία!"
   },
   "hero.button": {
     "en": "Get Started",
@@ -35,9 +35,9 @@
     "el": "Σχετικά με εμένα"
   },
   "about.description": {
-    "en": "As an experienced German teacher, I offer tailored lessons for all levels. My goal is to teach you not only the language but also introduce you to German culture and way of life.",
-    "de": "Als erfahrene Deutschlehrerin biete ich maßgeschneiderten Unterricht für alle Niveaus. Mein Ziel ist es, Ihnen nicht nur die Sprache beizubringen, sondern auch die deutsche Kultur und Lebensweise näherzubringen.",
-    "el": "Ως έμπειρη δασκάλα γερμανικών, προσφέρω εξατομικευμένα μαθήματα για όλα τα επίπεδα. Στόχος μου είναι να σας διδάξω όχι μόνο τη γλώσσα, αλλά και να σας εισάγω στη γερμανική κουλτούρα και τρόπο ζωής."
+    "en": "I have been teaching German for 15 years, specializing in preparing students for all language proficiency exams (Goethe, ÖSD). My expertise lies in training adults for relocation to German-speaking countries and improving the daily communication of those already living there. I apply modern teaching methods, provide free educational materials, and adapt my teaching model to each student's pace, with special attention to their psychological and emotional needs.",
+    "de": "Ich unterrichte seit 15 Jahren Deutsch und spezialisiere mich auf die Vorbereitung von Schülern für alle Sprachprüfungen (Goethe, ÖSD). Mein Schwerpunkt liegt in der Ausbildung von Erwachsenen für die Umsiedlung in deutschsprachige Länder und der Verbesserung der täglichen Kommunikation derer, die bereits dort leben. Ich wende moderne Lehrmethoden an, stelle kostenlose Lehrmaterialien zur Verfügung und passe mein Unterrichtsmodell dem Tempo jedes Schülers an, wobei ich besonderes Augenmerk auf ihre psychologischen und emotionalen Bedürfnisse lege.",
+    "el": "Παραδίδω ιδιαίτερα μαθήματα γερμανικών εδώ και 15 έτη, αναλαμβάνοντας την προετοιμασία μαθητών για εξετάσεις όλων των φορέων γλωσσομάθειας (Goethe, Ösd). Εξειδίκευση μου η εκπαίδευση ενηλίκων με σκοπό την εγκατάστασή τους σε γερμανόφωνες χώρες καθώς και η ποιοτική επικοινωνία στην καθημερινότητα εκείνων που ήδη διαμένουν σε γερμανόφωνες χώρες. Εφαρμόζω σύγχρονες μεθόδους διδασκαλίας, παρέχω δωρεάν εκπαιδευτικό υλικό και προσαρμόζω τα διδακτικό μου μοντέλο στους ρυθμούς του κάθε μαθητή, στου οποίου τις ψυχοσυναισθηματικές ανάγκες δίνω ιδιαίτερη έμφαση."
   },
   "about.button": {
     "en": "Learn More",
