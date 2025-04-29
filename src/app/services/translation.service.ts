@@ -29,12 +29,11 @@ interface Translations {
   providedIn: 'root'
 })
 export class TranslationService {
-  private currentLang = new BehaviorSubject<string>('de');
+  private currentLang = new BehaviorSubject<string>('el');
   currentLang$ = this.currentLang.asObservable();
   private translations: Translations = {};
 
   constructor(private http: HttpClient) {
-    // Set initial language from localStorage or default to German
     const savedLang = localStorage.getItem('preferredLanguage');
     if (savedLang) {
       this.currentLang.next(savedLang);
