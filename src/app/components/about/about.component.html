@@ -1,0 +1,17 @@
+<section id="about" class="py-20 px-4" aria-labelledby="about-title">
+    <div class="max-w-6xl mx-auto">
+      <h2 id="about-title" class="text-4xl font-bold text-center mb-12">{{ translate('about.title') }}</h2>
+      <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow max-w-3xl mx-auto">
+        <div class="space-y-6 text-center">
+          <p class="text-lg text-gray-600" [class.line-clamp-3]="!showMore">
+            {{ translate('about.description') }}
+          </p>
+          <button (click)="toggleShowMore()" 
+                  class="bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors"
+                  [attr.aria-expanded]="showMore">
+            {{ translate(showMore ? 'about.showLess' : 'about.showMore') }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>

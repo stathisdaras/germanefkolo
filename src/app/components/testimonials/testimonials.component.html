@@ -1,0 +1,25 @@
+<section id="testimonials" class="py-20" aria-labelledby="testimonials-title">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 id="testimonials-title" class="text-4xl font-bold text-center mb-12">{{ translate('testimonials.title') }}</h2>
+    <p-carousel 
+      [value]="getTestimonials()" 
+      [numVisible]="2" 
+      [numScroll]="1" 
+      [responsiveOptions]="responsiveOptions"
+      [circular]="true"
+      [autoplayInterval]="4000"
+      class="custom-carousel"
+      aria-label="Student testimonials">
+      <ng-template let-testimonial pTemplate="item">
+        <article class="bg-white p-8 rounded-xl shadow-lg mx-2">
+          <div class="mb-6">
+            <h3 class="font-semibold text-lg mb-2">{{ testimonial.name }}</h3>
+            <blockquote class="text-gray-600 italic whitespace-pre-line">
+              {{ testimonial.comment }}
+            </blockquote>
+          </div>
+        </article>
+      </ng-template>
+    </p-carousel>
+  </div>
+</section> 

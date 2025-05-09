@@ -1,0 +1,39 @@
+nav {
+  .space-y-4 {
+    > * + * {
+      margin-top: 1rem;
+    }
+  }
+
+  a {
+    &.block {
+      display: block;
+    }
+
+    &.w-3 {
+      width: 0.75rem;
+    }
+
+    &.h-3 {
+      height: 0.75rem;
+    }
+
+    &.rounded-full {
+      border-radius: 9999px;
+    }
+
+    &.bg-gray-400 {
+      background-color: #9ca3af;
+    }
+
+    &.hover\:bg-gray-600:hover {
+      background-color: #4b5563;
+    }
+
+    &.transition-colors {
+      transition-property: background-color, border-color, color, fill, stroke;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
+    }
+  }
+} 

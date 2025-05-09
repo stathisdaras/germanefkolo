@@ -1,0 +1,88 @@
+#testimonials {
+  padding: 5rem 1rem;
+
+  .max-w-6xl {
+    max-width: 72rem;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #2d3748;
+  }
+
+  .custom-carousel {
+    :host ::ng-deep {
+      .p-carousel {
+        .p-carousel-indicators {
+          margin-top: 1rem;
+        }
+
+        .p-carousel-indicator {
+          button {
+            width: 0.75rem;
+            height: 0.75rem;
+            border-radius: 50%;
+            background-color: #cbd5e0;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+              background-color: #4a5568;
+            }
+          }
+
+          &.p-highlight button {
+            background-color: #2d3748;
+          }
+        }
+
+        .p-carousel-prev,
+        .p-carousel-next {
+          background-color: white;
+          border-radius: 50%;
+          width: 2.5rem;
+          height: 2.5rem;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: all 0.3s ease;
+
+          &:hover {
+            background-color: #f7fafc;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          }
+
+          .p-carousel-icon {
+            color: #4a5568;
+          }
+        }
+      }
+    }
+  }
+
+  article {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #2d3748;
+    }
+
+    blockquote {
+      color: #4a5568;
+      font-style: italic;
+      line-height: 1.5;
+    }
+  }
+} 

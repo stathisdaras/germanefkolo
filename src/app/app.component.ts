@@ -5,7 +5,13 @@ import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
 import { LanguagePickerComponent } from './components/language-picker/language-picker.component';
 import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
-import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { HeroComponent } from './components/hero/hero.component';
+import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 interface Testimonial {
   name: string;
@@ -20,11 +26,17 @@ interface Testimonial {
     CarouselModule,
     ButtonModule,
     LanguagePickerComponent,
-    SideNavigationComponent
+    SideNavigationComponent,
+    HeroComponent,
+    AboutComponent,
+    ServicesComponent,
+    TestimonialsComponent,
+    ContactComponent,
+    FooterComponent
   ],
-  schemas: [NO_ERRORS_SCHEMA],
+  schemas: [NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less']
+  styleUrls: []
 })
 export class AppComponent {
   responsiveOptions = [
@@ -47,7 +59,7 @@ export class AppComponent {
 
   showMore = false;
 
-  constructor(private translationService: TranslationService) {}
+  constructor(public translationService: TranslationService) {}
 
   translate(key: string): string {
     return this.translationService.getTranslation(key);
