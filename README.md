@@ -1,6 +1,6 @@
 # German Language Learning Website
 
-A modern, responsive website for German language learning services, built with Angular and Tailwind CSS.
+A modern, responsive website for German language learning services, built with Angular standalone components and Tailwind CSS.
 
 ## Features
 
@@ -9,15 +9,16 @@ A modern, responsive website for German language learning services, built with A
 - 🎨 Modern UI with smooth animations
 - 💬 Testimonials carousel
 - 🎯 Interactive navigation
-- 🌙 Dark mode support
+- ⚡ Built with Angular standalone components (no NgModules)
+- 💅 LESS and Tailwind CSS for styling
 
 ## Tech Stack
 
-- Angular 19
+- Angular 19+ (standalone components, `bootstrapApplication`)
 - Tailwind CSS
 - PrimeNG Components
 - TypeScript
-- LESS for styling
+- LESS for component-level styling
 
 ## Getting Started
 
@@ -29,21 +30,18 @@ A modern, responsive website for German language learning services, built with A
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/stathisdaras/germanefkolo.git
-cd germanefkolo
-```
-
+    ```bash
+    git clone https://github.com/stathisdaras/germanefkolo.git
+    cd germanefkolo
+    ```
 2. Install dependencies:
-```bash
-npm install
-```
-
+    ```bash
+    npm install
+    ```
 3. Start the development server:
-```bash
-ng serve
-```
-
+    ```bash
+    ng serve
+    ```
 4. Open your browser and navigate to `http://localhost:4200`
 
 ## Project Structure
@@ -52,7 +50,13 @@ ng serve
 src/
 ├── app/
 │   ├── components/
-│   │   ├── language-switcher/
+│   │   ├── hero/
+│   │   ├── about/
+│   │   ├── services/
+│   │   ├── testimonials/
+│   │   ├── contact/
+│   │   ├── footer/
+│   │   ├── language-picker/
 │   │   └── side-navigation/
 │   ├── services/
 │   │   └── translation.service.ts
@@ -65,6 +69,14 @@ src/
 └── styles/
     └── styles.less
 ```
+
+## Deployment
+
+To build for production:
+```bash
+ng build --configuration production
+```
+Deploy the contents of the `dist/` directory to your preferred static hosting provider.
 
 ## Features in Detail
 
