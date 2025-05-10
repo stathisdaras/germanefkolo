@@ -62,7 +62,7 @@ export class AppComponent {
   constructor(public translationService: TranslationService) {}
 
   translate(key: string): string {
-    return this.translationService.getTranslation(key);
+    return this.translationService.translate(key);
   }
 
   getTestimonials(): Testimonial[] {

@@ -10,6 +10,6 @@ export class ServicesComponent {
   constructor(private translationService: TranslationService) {}
 
   translate(key: string): string {
-    return this.translationService.getTranslation(key);
+    return this.translationService.translate(key);
   }
 } 

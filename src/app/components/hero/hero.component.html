@@ -13,14 +13,14 @@
   <div class="relative z-20 px-4 sm:px-6 max-w-2xl mx-auto w-full flex flex-col items-center">
     <div class="w-full text-center">
       <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 mb-3 sm:mb-4 animate-fade-in">
-        {{ translate.getTranslation('hero.title') }}
+        {{ translate.translate('hero.title') }}
       </h1>
       <div class="text-lg sm:text-xl md:text-2xl text-gray-800 mb-6 sm:mb-8">
         <div class="flex justify-center">
           <p class="text-blue-900 font-semibold rotating-text inline-block">
-            <span class="text-item block text-center">{{ translate.getTranslation('hero.subtitle.option1') }}</span>
-            <span class="text-item block text-center">{{ translate.getTranslation('hero.subtitle.option2') }}</span>
-            <span class="text-item block text-center">{{ translate.getTranslation('hero.subtitle.option3') }}</span>
+            <span class="text-item block text-center">{{ translate.translate('hero.subtitle.option1') }}</span>
+            <span class="text-item block text-center">{{ translate.translate('hero.subtitle.option2') }}</span>
+            <span class="text-item block text-center">{{ translate.translate('hero.subtitle.option3') }}</span>
           </p>
         </div>
       </div>
@@ -28,7 +28,7 @@
     <button (click)="scrollToAbout()" 
             class="bg-blue-900 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full font-semibold hover:bg-blue-800 transition-all duration-300 transform hover:scale-105"
             aria-label="Learn more about German lessons">
-      {{ translate.getTranslation('hero.button') }}
+      {{ translate.translate('hero.button') }}
     </button>
   </div>
 </section> 

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { tap } from 'rxjs/operators';
+import * as yaml from 'js-yaml';
 
 export interface Translation {
   [key: string]: {
@@ -29,23 +30,19 @@ interface Translations {
   providedIn: 'root'
 })
 export class TranslationService {
-  private currentLang = new BehaviorSubject<string>('el');
+  private translations: any = {};
+  private currentLang = new BehaviorSubject<string>('en');
   currentLang$ = this.currentLang.asObservable();
-  private translations: Translations = {};
 
   constructor(private http: HttpClient) {
-    const savedLang = localStorage.getItem('preferredLanguage');
-    if (savedLang) {
-      this.currentLang.next(savedLang);
-    }
     this.loadTranslations();
   }
 
   private loadTranslations() {
-    this.http.get<Translations>('assets/translations/translations.json')
+    this.http.get('assets/translations/translations.yml', { responseType: 'text' })
       .pipe(
-        tap(translations => {
-          this.translations = translations;
+        tap(yamlText => {
+          this.translations = yaml.load(yamlText) as any;
         })
       )
       .subscribe();
@@ -56,15 +53,27 @@ export class TranslationService {
     localStorage.setItem('preferredLanguage', lang);
   }
 
-  getTranslation(key: string): string {
-    const lang = this.currentLang.value;
-    const translation = this.translations[key]?.[lang];
-    return typeof translation === 'string' ? translation : key;
+  getLanguage(): string {
+    return this.currentLang.value;
+  }
+
+  translate(key: string): string {
+    const keys = key.split('.');
+    let value = this.translations;
+    
+    for (const k of keys) {
+      if (value && value[k]) {
+        value = value[k];
+      } else {
+        return key;
+      }
+    }
+    
+    return value[this.currentLang.value] || key;
   }
 
   getTestimonials(): Testimonial[] {
     const lang = this.currentLang.value;
-    const testimonials = this.translations['testimonials']?.[lang];
-    return (testimonials as TestimonialsSection)?.list || [];
+    return this.translations?.testimonials?.list?.[lang] || [];
   }
 }
