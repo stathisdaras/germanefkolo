@@ -1,13 +1,40 @@
 <!-- Hero Section -->
 <section id="hero" class="relative h-screen max-h-[800px] mx-auto flex items-center justify-center overflow-hidden" aria-label="Introduction">
   <div class="absolute inset-0">
-    <img src="assets/images/hero_image.jpg" 
-         alt="German Language Instructor teaching online" 
-         class="w-full h-full object-cover object-[center_43%] 2xl:object-[center_50%] 3xl:object-[center_60%] 4xl:object-[center_70%]"
-         width="1920"
-         height="1080"
-         loading="eager"
-         fetchpriority="high">
+    <picture>
+      <!-- WebP sources for modern browsers -->
+      <source
+        media="(max-width: 640px)"
+        srcset="assets/images/optimized/hero_image_mobile.webp"
+        type="image/webp">
+      <source
+        media="(max-width: 1024px)"
+        srcset="assets/images/optimized/hero_image_tablet.webp"
+        type="image/webp">
+      <source
+        srcset="assets/images/optimized/hero_image_desktop.webp"
+        type="image/webp">
+
+      <!-- JPEG fallback sources -->
+      <source
+        media="(max-width: 640px)"
+        srcset="assets/images/optimized/hero_image_mobile.jpeg"
+        type="image/jpeg">
+      <source
+        media="(max-width: 1024px)"
+        srcset="assets/images/optimized/hero_image_tablet.jpeg"
+        type="image/jpeg">
+
+      <!-- Default fallback image -->
+      <img
+        src="assets/images/optimized/hero_image_desktop.jpeg"
+        alt="German Language Instructor teaching online"
+        class="w-full h-full object-cover object-[center_43%] 2xl:object-[center_50%] 3xl:object-[center_60%] 4xl:object-[center_70%]"
+        width="1920"
+        height="2560"
+        loading="eager"
+        fetchpriority="high">
+    </picture>
     <div class="absolute inset-0 bg-gradient-to-br from-white/70 via-white/60 to-white/50 z-10"></div>
   </div>
   <div class="relative z-20 px-4 sm:px-6 max-w-2xl mx-auto w-full flex flex-col items-center">
